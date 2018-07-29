@@ -56,7 +56,7 @@ print(a)
 # например, lst = [1 , 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 4, 6]
 
 lst = [1, 2, 4, 5, 6, 2, 5, 2, 10]
-def remove_redo(lst):
+def remove(lst):
     """Функция к задаче 4"""
     print('Исходный список: ', lst)
     lst2 = []
@@ -70,4 +70,4 @@ def remove_redo(lst):
             lst2.append(lst[i])
     lst2 = list(set(lst))
     print('Элементы исходного списка, которые не имеют повторений: ', lst2)
-remove_redo(lst)
+remove(lst)
